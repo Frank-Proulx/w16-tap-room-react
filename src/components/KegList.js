@@ -9,6 +9,7 @@ function KegList(props) {
       {props.kegList.map((keg) =>
         <Keg
         whenKegClicked = {props.onKegSelection}
+        onReducingPints = {props.onReducingPintsRemaining}
         name={keg.name}
         brand={keg.brand}
         price={keg.price}
@@ -23,7 +24,8 @@ function KegList(props) {
 
 KegList.propTypes = {
   kegList: PropTypes.array,
-  onKegSelection: PropTypes.func
+  onKegSelection: PropTypes.func,
+  onReducingPintsRemaining: PropTypes.func
 };
 
 export default KegList;
