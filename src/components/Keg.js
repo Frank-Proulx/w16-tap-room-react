@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Keg(props){
   let checkPints;
   if (props.pintsRemaining < 1) {
-    checkPints = "Sold out"
+    checkPints = <p>"Sold out"</p>
   } else {
     checkPints = <button onClick={() => props.onReducingPints(props.index)}>Sell a pint</button>;
   }
@@ -29,7 +29,9 @@ Keg.propTypes = {
   price: PropTypes.number,
   alcoholContent: PropTypes.number,
   pintsRemaining: PropTypes.number,
-  whenKegClicked: PropTypes.func
+  whenKegClicked: PropTypes.func,
+  onReducingPints: PropTypes.func,
+  index: PropTypes.number
 };
 
 export default Keg;
