@@ -2,6 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Keg(props){
+  let checkPints;
+  if (props.pintsRemaining < 1) {
+    checkPints = "Sold out"
+  } else {
+    checkPints = <button onClick={() => props.onReducingPints(props.index)}>Sell a pint</button>;
+  }
   return (
     <React.Fragment>
       <div onClick = {() => props.whenKegClicked(props.id)}>
@@ -11,7 +17,8 @@ function Keg(props){
         <p>Alcohol Content: {props.alcoholContent}%</p>
         <p>Pints Remaining: {props.pintsRemaining}</p>
       </div>
-      <button onClick={() => props.onReducingPints(props.index)}>Sell a pint</button>
+      {checkPints}
+      <hr/>
     </React.Fragment>
   );
 }
