@@ -1,11 +1,10 @@
 import React from "react";
-import beertaps from "./../img/beertaps.jpg";
+import beertaps from "./../img/beertaps2.jpg";
 
 function Header(){
   const headerImgStyles = {
-    width: '20vw',
+    width: '35vw',
     height: 'auto',
-    margin: '0 auto',
     float: 'right'
   }
 
@@ -16,8 +15,9 @@ function Header(){
   return(
     <React.Fragment>
       <div>
-        <img style={headerImgStyles} src={beertaps} alt="a group of beer taps"/>
         <h1 style={headerTextStyles}>Tap Room Inventory</h1>
+        <hr/>
+        <img style={headerImgStyles} src={beertaps} alt="a group of beer taps"/>
       </div>
     </React.Fragment>
   );

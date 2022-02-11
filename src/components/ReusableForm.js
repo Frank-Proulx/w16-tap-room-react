@@ -2,26 +2,29 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function ReusableForm(props) {
+  const formStyling = {
+    width: '40%'
+  }
   return (
     <React.Fragment>
-      <form onSubmit={props.formSubmissionHandler}>
-        <input
+      <form style={formStyling} onSubmit={props.formSubmissionHandler}>
+        <input className="form-control"
           type='text'
           name='name'
           placeholder='Beer Name' />
-        <input
+        <input className="form-control"
           type='text'
           name='brand'
           placeholder='Brand' />
-        <input
+        <input className="form-control"
           type='number'
           name='price'
           placeholder='Price' />
-        <input
+        <input className="form-control"
           type='number'
           name='alcoholContent'
           placeholder='Alcohol Content' />
-        <button type='submit'>{props.buttonText}</button>
+        <button className="btn btn-warning" type='submit'>{props.buttonText}</button>
       </form>
     </React.Fragment>
   );
