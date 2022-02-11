@@ -2,12 +2,13 @@
 
 #### By Frank Proulx
 
-#### A website for a tap room
+#### A website for a pub that keeps track of the kegs in inventory.
 
 ## Technologies Used
 
 * HTML
 * CSS
+* Bootstrap
 * Javascript
 * NPM
 * React
