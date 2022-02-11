@@ -3,16 +3,21 @@ import beertaps from "./../img/beertaps.jpg";
 
 function Header(){
   const headerImgStyles = {
-    width: '30vw',
+    width: '20vw',
     height: 'auto',
-    display: 'block',
-    margin: '0 auto'
+    margin: '0 auto',
+    float: 'right'
   }
+
+  const headerTextStyles = {
+    textAlign: 'center'
+  }
+
   return(
     <React.Fragment>
       <div>
         <img style={headerImgStyles} src={beertaps} alt="a group of beer taps"/>
-        <h1>Tap Room Inventory</h1>
+        <h1 style={headerTextStyles}>Tap Room Inventory</h1>
       </div>
     </React.Fragment>
   );
