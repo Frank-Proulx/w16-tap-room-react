@@ -11,6 +11,7 @@ function Keg(props){
         <p>Alcohol Content: {props.alcoholContent}%</p>
         <p>Pints Remaining: {props.pintsRemaining}</p>
       </div>
+      <button onClick={() => props.onReducingPints(props.index)}>Sell a pint</button>
     </React.Fragment>
   );
 }
