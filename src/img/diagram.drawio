@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Skj1kze7kufSVExVX1fe" name="Page-1">
-        <mxGraphModel dx="680" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="604" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
                 <mxCell id="7" value="KegDetail" style="rounded=0;whiteSpace=wrap;html=1;direction=west;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="530" y="190" width="130" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;font style=&quot;font-size: 8px ; line-height: 1&quot;&gt;Keg&lt;br&gt;Click to show it's detail&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 8px ; line-height: 0.6&quot;&gt;Keg: Click keg to show detail or button to sell&amp;nbsp; pint&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="220" y="220" width="100" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Keg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -40,8 +40,14 @@
                 <mxCell id="12" value="Submit&lt;br style=&quot;font-size: 8px;&quot;&gt;will create a keg and show list of kegs&lt;br style=&quot;font-size: 8px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
                     <mxGeometry x="382.5" y="330" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;p style=&quot;line-height: 0.7&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Update&lt;/span&gt;&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;will update the number of pints remaining&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="13" value="&lt;p style=&quot;line-height: 0.7&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Update keg properties&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="300" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;p style=&quot;line-height: 0.7&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Return to keg list button&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="545" y="340" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;p style=&quot;line-height: 0.7&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Delete kegs&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="260" width="100" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
