@@ -9,7 +9,8 @@ function Header(){
   }
 
   const headerTextStyles = {
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: '60px'
   }
 
   return(
